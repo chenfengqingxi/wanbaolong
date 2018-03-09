@@ -1,0 +1,626 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-22 16:01:25
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-23 01:02:03
+*/
+@import url("base.css");
+@font-face {
+  font-family: 'iconfont';  /* project id 550739 */
+  src: url('http://at.alicdn.com/t/font_550739_ci622z7z115opqfr.eot');
+  src: url('http://at.alicdn.com/t/font_550739_ci622z7z115opqfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_550739_ci622z7z115opqfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_550739_ci622z7z115opqfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_550739_ci622z7z115opqfr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+.banner	{
+	max-width: 1280px;
+	height: 463px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner li{
+	display: none;
+}
+.banner li.active{
+	display: block;
+}
+.banner li img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+
+.jiantouleft{
+	display: block;
+	height: 34px;
+	width: 12px;
+	position: absolute;
+	top: 370px;
+	left: 36px;
+
+}
+.jiantouleft i{
+   font-size: 34px;
+   color: #cabbb6;
+}
+.jiantouright{
+	display: block;
+	height: 34px;
+	width: 12px;
+	position: absolute;
+	top: 370px;
+	right: 58px;
+}
+.jiantouright i{
+   font-size: 34px;
+   color: #cabbb6;
+}
+.icon8{
+	font-size: 33px;
+	color: #cabbb6;
+}
+.icon9{
+	font-size: 33px;
+	color: #cabbb6;
+}
+.bannerbottom{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.bannerbottom li{
+     width: 50px;
+     height: 2px;
+     background: #cccccc;
+     margin-right: 16px;
+     margin-top: 16px;
+     margin-bottom: 16px;
+}
+.bannerbottom li.active{
+	background: #111;
+}
+.manjian{
+
+	text-align: center;
+	font-size: 15px;
+	color: #111;
+	font-weight: 700;
+}
+.neirong{
+	max-width: 1050px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+}
+.neirong1{
+	font-size: 14px;
+	color: #111;
+	text-align: center;
+	line-height: 28px;
+}
+
+
+
+.prise{
+	max-width:1280px;
+	height: 1140px;
+	margin: 0 auto;
+	display: flex;
+    flex-wrap: wrap;
+}
+.prise li{
+	height: 50%;
+	box-sizing: border-box;
+	background: #333;
+}
+.tupian{
+	display: block;
+	width: 100%;
+	height: 72%;
+}
+.tupian img{
+	width: 100%;
+	height: 100%;
+}
+.lipin{
+	display: block;
+	margin: 0 auto;
+	margin-top: 22px;
+}
+.lipin p{
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+}
+/*.bottom{*/
+	/*margin-top: 100px;*/
+	/*!*width: *!*/
+/*}*/
+.foot{
+	width: 100%;
+	background: #111;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.foot li a{
+	display: block;
+	font-size: 12px;
+	color: #acacac;
+    margin-bottom: 14px;
+}
+.foot li div{
+	height: 1px;
+	background: #acacac;
+	margin-bottom: 14px;
+}
+.footer{
+	width: 100%;
+	height: 200px;
+	background: #111;
+
+}
+.footer1{
+	margin-top: 30px;
+	width: 90%;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto ;
+}
+.footer2{
+	margin: 0 auto ;
+	width: 108px;
+	height: 58px;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+.footer2 img{ 
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width:1224px){
+	header{
+	width: 100%;
+	height: 40px;
+	background: #343434;
+	box-sizing: border-box;
+	padding: 10px 50px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.icon1{
+	font-size: 12px;
+	color:  #d7d7d7;
+	margin-right: 12px;
+}
+
+.china{
+	font-size: 12px;
+	color: #d7d7d7;
+}
+.icon2{
+	font-size: 12px;
+	color: #ababab;
+}
+.lianxi{
+	font-size: 12px;
+	color: #ababab;
+}
+.headright a p{
+   font-size: 12px;
+   color: #ccccd7;
+}
+section{
+	width: 100%;
+	height: 100px;
+	background: #111;
+	box-sizing: border-box;
+	padding: 0px 100px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.head a i{
+	font-size: 25px;
+	color: #acacac;
+}
+.head1 a p{
+	font-size: 11px;
+	color: #acacac;
+	margin-top: 40px;
+}
+.headmid{
+	display: block;
+	width: 107px;
+	height: 59px;
+	margin-top: 15px;
+}
+.headmid img{
+	width: 100%;
+	height: 100%;
+}
+.head2 a p{
+	font-size: 12px;
+	color:#acacac;
+	 margin-top: 40px;
+	 float: left;
+	 margin-right: 7px;
+}
+.adiv{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #333;
+    margin-top: 30px;
+    float: right;
+}
+.headright{
+	display: flex;
+}
+.headright a{
+	margin-right: 20px;
+	font-size: 22px;
+	color: #999999;
+	margin-top: -5px;
+}
+.headright a p{
+	margin-top: 5px;
+}
+
+.top{
+	width: 100%;
+	height: 44px;
+	background: #111;
+	border-top: 1px solid #212121;
+	display: flex;
+	justify-content: center;
+}
+.top a{
+	display: block;
+	margin-right: 40px;
+	margin-top: 13px;
+}
+.top a p{
+	color: #acacac;
+	font-size: 10px;
+}
+.prise li{
+	width:33.33333%;
+	border: 13px solid #fff;
+}
+
+
+.foot{
+	height: 325px;
+	margin-top: 580px;
+
+	padding: 45px 94px;
+}
+.foot li div{
+	width: 273px;
+}
+
+}
+
+@media screen and (max-width: 1224px) and (min-width: 967px){
+		header{
+	width: 100%;
+	height: 40px;
+	background: #343434;
+	box-sizing: border-box;
+	padding: 10px 0px 25px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.icon1{
+	font-size: 12px;
+	color:  #d7d7d7;
+	margin-right: 12px;
+}
+
+.china{
+	font-size: 12px;
+	color: #d7d7d7;
+}
+.icon2{
+	font-size: 12px;
+	color: #ababab;
+}
+.lianxi{
+	font-size: 12px;
+	color: #ababab;
+}
+.headright a p{
+   font-size: 12px;
+   color: #ccccd7;
+}
+.headright{
+	display: flex;
+}
+.headright a{
+	margin-right: 20px;
+	font-size: 22px;
+	color: #999999;
+	margin-top: -5px;
+}
+.headright a p{
+	margin-top: 5px;
+}
+section{
+	width: 100%;
+	height: 100px;
+	background: #111;
+	box-sizing: border-box;
+	padding: 0px 0px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.head a i{
+	font-size: 25px;
+	color: #acacac;
+}
+.head1 a p{
+	font-size: 11px;
+	color: #acacac;
+	margin-top: 40px;
+}
+.headmid{
+	display: block;
+	width: 107px;
+	height: 59px;
+	margin-top: 15px;
+}
+.headmid img{
+	width: 100%;
+	height: 100%;
+}
+.head2 a p{
+	font-size: 12px;
+	color:#acacac;
+	 margin-top: 40px;
+	 float: left;
+	 margin-right: 7px;
+}
+.adiv{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #333;
+    margin-top: 30px;
+    float: right;
+}
+.top{
+	width: 100%;
+	height: 44px;
+	background: #111;
+	border-top: 1px solid #212121;
+	display: flex;
+	justify-content: center;
+}
+.top a{
+	display: block;
+	margin-right: 35px;
+	margin-top: 13px;
+}
+.top a p{
+	color: #acacac;
+	font-size: 10px;
+}
+.prise li{
+	width:33.33333%;
+	border-top: 13px solid #fff;
+	border-bottom: 13px solid #fff;
+	border-right: 27px solid #fff;
+	border-left: 0;
+}
+.prise li:nth-child(3n){
+	border-right: 0;
+	border-left:7px;
+}
+
+.foot{
+	height: 325px;
+	margin-top: 580px;
+
+	padding: 45px 0px;
+}
+.foot li div{
+	width: 273px;
+}
+}
+@media screen and (max-width: 967px) and (min-width: 768px) {
+		header{
+	width: 100%;
+	height: 56px;
+	background: #343434;
+	box-sizing: border-box;
+	padding: 17px 18px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.icon1{
+	font-size: 12px;
+	color:  #d7d7d7;
+	margin-right: 12px;
+}
+
+.headright{
+	display: flex;
+}
+.headright a{
+	margin-right: 20px;
+	font-size: 22px;
+	color: #999999;
+	margin-top: -5px;
+}
+.headright a p{
+	margin-top: 5px;
+}
+.china{
+	font-size: 12px;
+	color: #d7d7d7;
+}
+.icon2{
+	font-size: 12px;
+	color: #ababab;
+}
+.lianxi{
+	font-size: 12px;
+	color: #ababab;
+}
+.headright a p{
+   font-size: 12px;
+   color: #ccccd7;
+}
+section{
+	width: 100%;
+	height: 100px;
+	background: #111;
+	box-sizing: border-box;
+	padding: 0px 0px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.head a i{
+	font-size: 25px;
+	color: #acacac;
+}
+.head1 a p{
+	font-size: 11px;
+	color: #acacac;
+	margin-top: 40px;
+}
+.headmid{
+	display: block;
+	width: 107px;
+	height: 59px;
+	margin-top: 15px;
+}
+.headmid img{
+	width: 100%;
+	height: 100%;
+}
+.head2 a p{
+	font-size: 12px;
+	color:#acacac;
+	 margin-top: 40px;
+	 float: left;
+	 margin-right: 7px;
+}
+.adiv{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #333;
+    margin-top: 30px;
+    float: right;
+}
+.top{
+	width: 100%;
+	height: 35px;
+	background: #111;
+	border-top: 1px solid #212121;
+	display: flex;
+	justify-content: center;
+}
+.top a{
+	display: block;
+	margin-right: 13px;
+	margin-top: 8px;
+}
+.top a p{
+	color: #acacac;
+	font-size: 10px;
+}
+.prise li{
+	width:33.33333%;
+	border-top: 13px solid #fff;
+	border-bottom: 13px solid #fff;
+	border-right: 18px solid #fff;
+	border-left: 0;
+}
+.foot{
+	height: 325px;
+	margin-top: 580px;
+
+	padding: 45px 0px;
+}
+.foot li div{
+	width: 273px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+	 header{
+	 	display: none;
+	 }  
+	 section{
+	width: 100%;
+	height:48px;
+	background: #111;
+	box-sizing: border-box;
+	padding: 0px 0px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.head a i{
+	font-size: 18px;
+	color: #fbfbfb;
+}
+.head1 a p{
+	font-size:18px;
+	color: #fbfbfb;
+	margin-top: 13px;
+}
+.headmid{
+	display: block;
+	width: 49px;
+	height: 27px;
+	margin-top: 10px;
+}
+.headmid img{
+	width: 100%;
+	height: 100%;
+}
+.head2 a p{
+	font-size: 18px;
+	color:#fbfbfb;
+	 margin-top: 13px;
+	 float: left;
+	 margin-right: 7px;
+}
+.adiv{
+	display: block;
+	width: 25px;
+	height: 25px;
+	border: 2px solid #fbfbfb;
+    margin-top: 10px;
+    float: right;
+}
+.top{
+	display: none;
+}
+.prise li{
+	width:100%;
+	border: 16px solid #fff;
+}
+.foot{
+	height: 800px;
+	margin-top:4000px;
+   
+	padding: 45px 0px;
+	padding-left: 33px;
+}
+.foot li div{
+	width: 578px;
+}
+
+}

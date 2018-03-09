@@ -1,0 +1,31 @@
+﻿/*
+* @Author: Administrator
+* @Date:   2018-01-03 09:20:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-23 00:00:04
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+/* 	font-family:"微软雅黑","宋体",sans-serif; */
+}
+
+a{
+	text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+body{
+	background: #fff;
+}
+img{
+	border: none;
+}
+.iconfont{
+  font-style: normal;
+}
+li{
+  list-style: none;
+}
+
